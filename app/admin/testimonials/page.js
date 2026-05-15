@@ -8,7 +8,9 @@ const fields = [
   { key: 'quote',   label: 'Quote', type: 'textarea' },
 ]
 
-const tableColumns = [
+
+export default function TestimonialsPage() {
+  const tableColumns = [
   { key: 'author',  label: 'Author' },
   { key: 'company', label: 'Company', dim: true },
   {
@@ -18,8 +20,6 @@ const tableColumns = [
     render: (v) => (v ? v.slice(0, 60) + (v.length > 60 ? '…' : '') : '—'),
   },
 ]
-
-export default function TestimonialsPage() {
   return (
     <CrudPage
       title="Testimonials"
