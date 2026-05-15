@@ -182,9 +182,10 @@ export default function TeamPage() {
         <div style={{ margin: "32px 40px", fontFamily: "'DM Sans', sans-serif" }}>
             {/* outer row: sidebar + right column, same height */}
             <div
+                className="flex-col md:flex-row"
                 style={{
                     display: "flex",
-                    flexDirection: window.innerWidth < 900 ? "column" : "row",
+                    flexDirection: "row",
                     gap: 24,
                     maxWidth: 1280,
                     margin: "0 auto",
