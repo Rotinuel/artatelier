@@ -1,5 +1,3 @@
-"use client"
-
 import CrudPage from '@/components/admin/CrudPage'
 
 const fields = [
