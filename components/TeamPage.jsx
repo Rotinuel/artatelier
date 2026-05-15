@@ -184,8 +184,6 @@ export default function TeamPage() {
             <div
                 className="flex-col md:flex-row"
                 style={{
-                    display: "flex",
-                    flexDirection: "row",
                     gap: 24,
                     maxWidth: 1280,
                     margin: "0 auto",
